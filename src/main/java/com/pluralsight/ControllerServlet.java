@@ -62,9 +62,6 @@ public class ControllerServlet extends HttpServlet {
 				case "/delete":
 					 deleteBook(request, response);
 					 break;
-				case "/edit":
-					 editBook(request, response);
-					 break;
         default:
 				   listBooks(request, response);
            break;
